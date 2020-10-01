@@ -1,0 +1,39 @@
+.list-group-item{
+    border: none;
+}
+
+.my-bg-color{
+    background-color: #464646;
+}
+
+.titre{
+    font-size: 1.5rem;
+}
+
+.sous-titre{
+    font-size: 1.25rem;
+}
+
+.pixel-perfect{
+    padding: 0.75rem 0.75rem;
+}
+
+@media screen and (max-width: 992px){
+    .media-query-center{
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+    }
+
+    body{
+        font-size: 0.75rem;
+    }
+
+    .titre{
+        font-size: 1.25rem;
+    }
+
+    .sous-titre{
+        font-size: 1rem;
+    }
+}
