@@ -19,6 +19,10 @@
 }
 
 @media screen and (max-width: 992px){
+    .my-bg-color{
+        background-color: #555555;
+    }
+
     .media-query-center{
         text-align: justify;
         display: flex;
